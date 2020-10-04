@@ -6,6 +6,12 @@
   <metadata_license>CC0-1.0</metadata_license>
   <developer_name>Proton Technologies AG</developer_name>
   <url type="homepage">https://protonmail.com/import-export/</url>
+  <url type="bugtracker">
+    https://github.com/ProtonMail/proton-bridge/issues
+  </url>
+  <url type="help">
+    https://protonmail.com/support/
+  </url>
 
   <summary>
     Import emails to your secure ProtonMail inbox
