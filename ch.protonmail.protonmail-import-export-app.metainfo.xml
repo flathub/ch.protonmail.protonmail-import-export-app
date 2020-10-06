@@ -60,7 +60,21 @@
   </screenshots>
 
   <releases>
-    <release version="1.1.2-1" date="2020-10-06"/>
+    <release version="1.1.2" date="2020-10-06">
+      <p>Release Notes:</p>
+      <ul>
+        <li>Speed up import by implementing parallel processing (parallel fetch, encrypt and upload of messages)</li>
+        <li>Optimising the initial fetch of messages from external accounts</li>
+        <li>Better handling of attachments and non-standard formatting</li>
+        <li>Improved stability of the message parser</li>
+        <li>Added persistent anonymous API cookies</li>
+      </ul>
+      <p>Fixed bugs:</p>
+      <ul>
+        <li>Import from mbox files with long lines</li>
+        <li>Improvements to import from Yahoo accounts</li>
+      </ul>
+    </release>
     <release version="1.0.0" date="2020-09-09"/>
   </releases>
 
