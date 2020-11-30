@@ -60,6 +60,23 @@
   </screenshots>
 
   <releases>
+    <release version="1.2.2-1" date="2020-11-30">
+      <p>Release Notes:</p>
+      <ul>
+        <li>Improvements to the import from large mbox files with multiple labels</li>
+        <li>Not allow to run multiple instances of the app or transfers at the same time</li>
+        <li>Better handling and displaying of skipped messages</li>
+        <li>Various enhancements of the import process related to parsing</li>
+        <li>Cosmetic GUI changes</li>
+        <li>Better error handling</li>
+      </ul>
+      <p>Fixed bugs:</p>
+      <ul>
+        <li>Linux font issues - Fedora specific</li>
+        <li>App response to the user pausing and canceling import or export</li>
+        <li>Upgrade errors</li>
+      </ul>
+    </release>
     <release version="1.1.2" date="2020-10-06">
       <p>Release Notes:</p>
       <ul>
