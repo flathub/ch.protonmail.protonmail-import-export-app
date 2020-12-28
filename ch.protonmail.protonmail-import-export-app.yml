@@ -18,7 +18,7 @@ modules:
     build-commands:
       - install -Dp -m 644 ${FLATPAK_ID}.metainfo.xml /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
       - ar x protonmail-import-export-app.deb
-      - tar -xf data.tar.xz
+      - tar -xf data.tar.gz
       - mv usr/lib/* /app/lib/
       - install -Dp -m 644 usr/share/icons/hicolor/scalable/apps/protonmail-import-export-app.svg
         /app/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
@@ -30,13 +30,12 @@ modules:
     sources:
       - type: file
         dest-filename: protonmail-import-export-app.deb
-        url: https://protonmail.com/download/ie/protonmail-import-export-app_1.2.2-1_amd64.deb
-        sha256: f9d4a2c2ce956c6561e0a0136bd8a74c6fc9d7808772c5bf8fa78567c9e0e0cd
+        url: https://protonmail.com/download/ie/protonmail-import-export-app_1.2.3-1_amd64.deb
+        sha256: b109d277dae19d42ba05ab6e8612a613ecfdf677ee381d5c379e5180f149cd66
         x-checker-data:
           type: html
           url: https://protonmail.com/download/current_version_ie_linux.json
           version-pattern: protonmail-import-export-app_(\d.\d.\d-\d)_amd64.deb
           url-template: https://protonmail.com/download/ie/protonmail-import-export-app_${version}_amd64.deb
-        size: 38656206
       - type: file
         path: ch.protonmail.protonmail-import-export-app.metainfo.xml
