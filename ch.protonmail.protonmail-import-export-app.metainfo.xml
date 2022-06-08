@@ -5,12 +5,12 @@
   <project_license>GPL-3.0</project_license>
   <metadata_license>CC0-1.0</metadata_license>
   <developer_name>Proton Technologies AG</developer_name>
-  <url type="homepage">https://protonmail.com/import-export/</url>
+  <url type="homepage">https://proton.me/easyswitch/</url>
   <url type="bugtracker">
     https://github.com/ProtonMail/proton-bridge/issues
   </url>
   <url type="help">
-    https://protonmail.com/support/
+    https://proton.me/support/import-emails-import-export-app
   </url>
 
   <summary>
@@ -49,12 +49,12 @@
   <screenshots>
     <screenshot>
       <image type="source">
-        https://raw.githubusercontent.com/A6GibKm/flathub/new-pr-import-export/screenshots/main.png
+        https://raw.githubusercontent.com/flathub/ch.protonmail.protonmail-import-export-app/master/screenshots/main.png
       </image>
     </screenshot>
     <screenshot>
       <image type="source">
-        https://raw.githubusercontent.com/A6GibKm/flathub/new-pr-import-export/screenshots/settings.png
+        https://raw.githubusercontent.com/flathub/ch.protonmail.protonmail-import-export-app/master/screenshots/settings.png
       </image>
     </screenshot>
   </screenshots>
