@@ -30,8 +30,8 @@ modules:
     sources:
       - type: file
         dest-filename: protonmail-import-export-app.deb
-        url: https://proton.me/download/ie/protonmail-import-export-app_1.3.3-1_amd64.deb
-        sha256: 833f369d358dc13e6ad813de4d8c071ad91e7e126fd06f31f8b736663e8f3fd0
+        url: https://protonmail.com/download/ie/protonmail-import-export-app_1.3.3-1_amd64.deb
+        sha256: a6aae67a58410c49311b438efc1a06fdd12ce4c47fea43ad77cd7571f016d3b5
         x-checker-data:
           type: json
           url: https://proton.me/download/current_version_ie_linux.json
