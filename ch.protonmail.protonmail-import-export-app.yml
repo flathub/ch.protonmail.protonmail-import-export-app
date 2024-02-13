@@ -26,6 +26,7 @@ modules:
         /app/share/applications/${FLATPAK_ID}.desktop
       - desktop-file-edit --set-key="Icon" --set-value=${FLATPAK_ID} /app/share/applications/${FLATPAK_ID}.desktop
       - desktop-file-edit --set-key="Categories" --set-value="Office;Email" /app/share/applications/${FLATPAK_ID}.desktop
+      - desktop-file-edit --set-key="Exec" --set-value="proton-ie" /app/share/applications/${FLATPAK_ID}.desktop
       - ln -s /app/lib/protonmail/import-export/proton-ie /app/bin/
     sources:
       - type: file
