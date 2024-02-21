@@ -14,8 +14,7 @@
   </url>
 
   <summary>
-    Import emails to your secure ProtonMail inbox
-    or make offline backups with the Import-Export app.
+    Sync your emails, calendars, and contacts securely with Proton in one click
   </summary>
 
   <launchable type="desktop-id">
@@ -23,10 +22,6 @@
   </launchable>
 
   <description>
-    <p>
-      Migrate and secure your important email conversations
-    </p>
-
     <p>
       Keep your personal email history private and secure by migrating it to ProtonMail using the Import-Export app.
     </p>
@@ -47,7 +42,7 @@
   </description>
 
   <screenshots>
-    <screenshot>
+    <screenshot type="default">
       <image type="source">
         https://raw.githubusercontent.com/flathub/ch.protonmail.protonmail-import-export-app/master/screenshots/main.png
       </image>
@@ -63,48 +58,54 @@
     <release version="1.3.3" date="2021-06-14"/>
     <release version="1.3.1" date="2021-03-17"/>
     <release version="1.2.3" date="2020-12-28">
-      <p>Release Notes:</p>
-      <ul>
-        <li>Allow an import of already encrypted messages (as cypher text)</li>
-        <li>Cosmetic GUI changes</li>
-        <li>Better error handling</li>
-      </ul>
-      <p>Fixed bugs:</p>
-      <ul>
-        <li>Installation issues on linux</li>
-      </ul>
+      <description>
+        <p>Release Notes:</p>
+        <ul>
+          <li>Allow an import of already encrypted messages (as cypher text)</li>
+          <li>Cosmetic GUI changes</li>
+          <li>Better error handling</li>
+        </ul>
+        <p>Fixed bugs:</p>
+        <ul>
+          <li>Installation issues on linux</li>
+        </ul>
+      </description>
     </release>
     <release version="1.2.2" date="2020-11-30">
-      <p>Release Notes:</p>
-      <ul>
-        <li>Improvements to the import from large mbox files with multiple labels</li>
-        <li>Not allow to run multiple instances of the app or transfers at the same time</li>
-        <li>Better handling and displaying of skipped messages</li>
-        <li>Various enhancements of the import process related to parsing</li>
-        <li>Cosmetic GUI changes</li>
-        <li>Better error handling</li>
-      </ul>
-      <p>Fixed bugs:</p>
-      <ul>
-        <li>Linux font issues - Fedora specific</li>
-        <li>App response to the user pausing and canceling import or export</li>
-        <li>Upgrade errors</li>
-      </ul>
+      <description>
+        <p>Release Notes:</p>
+        <ul>
+          <li>Improvements to the import from large mbox files with multiple labels</li>
+          <li>Not allow to run multiple instances of the app or transfers at the same time</li>
+          <li>Better handling and displaying of skipped messages</li>
+          <li>Various enhancements of the import process related to parsing</li>
+          <li>Cosmetic GUI changes</li>
+          <li>Better error handling</li>
+        </ul>
+        <p>Fixed bugs:</p>
+        <ul>
+          <li>Linux font issues - Fedora specific</li>
+          <li>App response to the user pausing and canceling import or export</li>
+          <li>Upgrade errors</li>
+        </ul>
+      </description>
     </release>
     <release version="1.1.2" date="2020-10-06">
-      <p>Release Notes:</p>
-      <ul>
-        <li>Speed up import by implementing parallel processing (parallel fetch, encrypt and upload of messages)</li>
-        <li>Optimising the initial fetch of messages from external accounts</li>
-        <li>Better handling of attachments and non-standard formatting</li>
-        <li>Improved stability of the message parser</li>
-        <li>Added persistent anonymous API cookies</li>
-      </ul>
-      <p>Fixed bugs:</p>
-      <ul>
-        <li>Import from mbox files with long lines</li>
-        <li>Improvements to import from Yahoo accounts</li>
-      </ul>
+      <description>
+        <p>Release Notes:</p>
+        <ul>
+          <li>Speed up import by implementing parallel processing (parallel fetch, encrypt and upload of messages)</li>
+          <li>Optimising the initial fetch of messages from external accounts</li>
+          <li>Better handling of attachments and non-standard formatting</li>
+          <li>Improved stability of the message parser</li>
+          <li>Added persistent anonymous API cookies</li>
+        </ul>
+        <p>Fixed bugs:</p>
+        <ul>
+          <li>Import from mbox files with long lines</li>
+          <li>Improvements to import from Yahoo accounts</li>
+        </ul>
+      </description>
     </release>
     <release version="1.0.0" date="2020-09-09"/>
   </releases>
