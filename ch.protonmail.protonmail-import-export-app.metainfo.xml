@@ -4,7 +4,10 @@
   <name>ProtonMail Import-Export app</name>
   <project_license>GPL-3.0</project_license>
   <metadata_license>CC0-1.0</metadata_license>
-  <developer_name>Proton Technologies AG</developer_name>
+  <developer_name>Proton AG</developer_name>
+  <developer id="ch.protonmail">
+    <name>Proton AG</name>
+  </developer>
   <url type="homepage">https://proton.me/easyswitch/</url>
   <url type="bugtracker">
     https://github.com/ProtonMail/proton-bridge/issues
